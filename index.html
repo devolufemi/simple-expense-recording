@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+
+    <fieldset class="headp">
+        <div class="btn"> MR. A</div> <br>
+    <form name="addForm">
+  PRODUCTS<br>
+   <input type="text" name="Product"><br>
+   QUANTITY BOUGHT <br>
+   <input type="number" name="QuantityBought"> <br>
+   PRICE PER QUANTITY <br>
+   <input type="number" name="Price"><br>
+
+<input type="button" onclick="addExpense()" value="Add Expense"/>
+</form>
+</fieldset>
+
+<table>
+
+    <thead>
+        <td>Name</td>
+        <td>Quantity</td>
+        <td>Price</td>
+
+    </thead>
+    <tbody id="table-container">
+       
+
+    </tbody>
+
+
+    </tr>
+</table>
+<div id="total-expense">
+
+</div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
